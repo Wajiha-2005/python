@@ -1,0 +1,6 @@
+class Solution(object):
+    def isPerfectSquare(self, num):
+        return (num ** 0.5) % 1 == 0
+sol = Solution()
+print(sol.isPerfectSquare(169))  
+print(sol.isPerfectSquare(50))
