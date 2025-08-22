@@ -1,0 +1,5 @@
+import time
+while True:
+    CurrentTime=time.strftime("%H:%M:%S")
+    print(CurrentTime,end="\r")
+    time.sleep(1)
