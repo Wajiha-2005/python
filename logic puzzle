@@ -1,0 +1,11 @@
+def time(x,y,z):
+    height=0
+    minute=0
+    while height<x:
+        minute=minute+1
+        if minute%2==1:
+            height=height+y
+        else:
+            height=height-z
+    return minute
+print(time(30,10,5))
